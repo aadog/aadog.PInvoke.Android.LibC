@@ -2,7 +2,7 @@
 
 namespace aadog.PInvoke.Android.LibC
 {
-    public partial class LibC
+    public partial class LibCFunctions
     {
         [LibraryImport("libc")]
         public static partial void exit(int status);
